@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Bootsrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/15d3cfc7ff.js" crossorigin="anonymous"></script>
+
+  <!-- Internal links -->
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js"></script>
+
+
+  <title>Random Quote Machine</title>
+</head>
+
+<body id="body-id">
+  <!-- Quote machine -->
+  <main id="quote-box" class="container bg-light rounded mt-5 mx-auto p-5">
+    <!-- Quote -->
+    <blockquote class="blockquote text-center">
+      <p id="text"></p>
+      <footer id="author" class="blockquote-footer text-right"></footer>
+    </blockquote>
+    <!-- Buttons -->
+    <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote" class="btn btn-lg"><i
+        class="fab fa-twitter"></i></i></a>
+    <button id="new-quote" class="btn btn-lg float-right"><span class="small">New quote</span></button>
+  </main>
+
+  <br><br>
+  <!-- Contact -->
+  <div id="contact-id" class="container text-center small bg-light p-4 rounded">
+    <span>Made by </span><code>r4ngel</code>
+    <div>
+      <a href="https://twitter.com/OscarRa65705186" target="_blank" id="contact-twitter" class="btn btn-sm btn-dark"><i
+          class="fab fa-twitter"></i></i></a>
+      <a href="https://github.com/R4ngel93" target="_blank" id="contact-github" class="btn btn-sm btn-dark"><i
+          class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+</body>
+
+</html>

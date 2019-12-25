@@ -1,0 +1,21 @@
+/* Font family */
+*{
+  font-family: 'Courier Prime', monospace;
+}
+
+/* Contact style */
+#contact-id{
+  opacity: 0.1;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+#contact-id:hover{
+  opacity: 1;
+}
+
+/* Media query stuff (do NOT touch it) */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 570px;
+  }
+}
